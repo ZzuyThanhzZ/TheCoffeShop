@@ -26,26 +26,26 @@ const Header: React.FC = () => {
                 2xl:px-0 2xl:justify-center
                 2xl:mx-auto"
             >
-                <div className="my-[30px] ml-[18px] mr-10 sm:hidden">
+                <div className="my-[30px] ml-[18px] mr-10 md:hidden">
                     <img src={MenuNav} alt="menu-nav" onClick={handleOpen}/>
                 </div>
                 <div className="flex 2xl:mr-[288px]">
                     <img className="w-[45px] h-7 lg:w-[56px] lg:h-[34px] mr-3" src={LogoIcon} alt='logo-icon'/>
                     <img className="w-[106px] h-8 lg:w-[167px] lg:h-[38px]" src={LogoText} alt='logo-text'/>
                 </div>
-                <nav className="hidden sm:block">
+                <nav className="hidden md:block">
                     <ul className="flex">
                         <li>
-                            <a className="sm:ml-5 md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">About us</a>
+                            <a className="md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">About us</a>
                         </li>
                         <li>
-                            <a className="sm:ml-5 md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">Promotion</a>
+                            <a className="md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">Promotion</a>
                         </li>
                         <li>
-                            <a className="sm:ml-5 md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">Shop</a>
+                            <a className="md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">Shop</a>
                         </li>
                         <li>
-                            <a className="sm:ml-5 md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">Contacts</a>
+                            <a className="md:ml-7 lg:ml-[48px] xl:ml-[86px]" href="#">Contacts</a>
                         </li>
                         <li>
                             <a 
