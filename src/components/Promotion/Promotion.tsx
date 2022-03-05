@@ -7,7 +7,7 @@ const Promotion: React.FC = () => {
     return (
         <div className="flex-row-reverse my-[50px]
             md:my-[150px]
-            lg:pl-[120px] lg:pr-[120px] xl:mr-48 lg:flex lg:justify-between 2xl:mx-auto"
+            lg:ml-[120px] lg:mr-[120px] xl:mr-48 lg:flex lg:justify-center 2xl:mx-auto"
         >
             
             <div className="flex lg:items-start xl:items-end xl:ml-[120px]">
@@ -23,7 +23,7 @@ const Promotion: React.FC = () => {
                 </div>
             </div>
 
-            <div className="mx-8 mt-[30px] lg:mt-0 lg:ml-0 lg:max-w-[615px]">
+            <div className="mx-8 mt-[30px] lg:mt-0 lg:ml-0 lg:max-w-[615px] 2xl:mr-[150px]">
                 <h2 className="text-4xl lg:text-[38px]">Coffee of the day</h2>
                 <p className="font-alegreya my-[30px] lg:my-[25px]">
                 Americano coffee (Italian: Caffè Americano) is an espresso diluted with hot water. The presence of foam (cream) depends on how coffee and water are mixed.

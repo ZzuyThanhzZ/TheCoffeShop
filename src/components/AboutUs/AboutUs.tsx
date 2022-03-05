@@ -7,11 +7,12 @@ const AboutUs: React.FC = () => {
     return (
         <div className="
             mt-[70px] mb-24
-            lg:pl-[120px] lg:pr-48 lg:flex lg:justify-between md:my-[190px] 2xl:mx-auto"
+            lg:ml-[120px] lg:mr-48 lg:flex lg:justify-center md:my-[190px] 2xl:mx-auto"
         >
             <div className="relative min-w-[380px] bg-primaryPink
                 h-[248px]
-                lg:mr-[100px] lg:h-[287px]"
+                lg:mr-[100px] lg:h-[287px]
+                2xl:mr-[240px]"
             >
                 <div>
                     <h4 className="hidden lg:block absolute left-[-46px] top-[18px] font-cedarville -rotate-90">About us</h4>

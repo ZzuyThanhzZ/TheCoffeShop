@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
     return (
         <div>
             <div className="px-5">
-                <div className="lg:flex justify-start sm:pl-3 lg:pl-[100px] md:pt-[80px] 2xl:mx-auto">
+                <div className="lg:flex justify-start 2xl:justify-center sm:pl-3 lg:pl-[100px] md:pt-[80px] 2xl:mx-auto">
                     <div className="relative">
                         <img className="hidden sm:block mx-auto lg:w-[646px] lg:h-[351px]" src={Map} alt="map" />
                         <img className="mx-auto sm:hidden" src={SmallMap} alt="map" />

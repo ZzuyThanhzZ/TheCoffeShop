@@ -18,17 +18,18 @@ const Header: React.FC = () => {
     return (
         <div>
            <div className="
-                flex sm:justify-between items-center
+                flex sm:justify-center items-center
                 sm:py-10 sm:px-[20px] 
                 md:px-[50px] 
                 lg:px-[88px] 
                 xl:px-bothsides
+                2xl:px-0
                 2xl:mx-auto"
             >
                 <div className="my-[30px] ml-[18px] mr-10 sm:hidden">
                     <img src={MenuNav} alt="menu-nav" onClick={handleOpen}/>
                 </div>
-                <div className="flex">
+                <div className="flex 2xl:mr-[288px]">
                     <img className="w-[45px] h-7 lg:w-[56px] lg:h-[34px] mr-3" src={LogoIcon} alt='logo-icon'/>
                     <img className="w-[106px] h-8 lg:w-[167px] lg:h-[38px]" src={LogoText} alt='logo-text'/>
                 </div>
