@@ -7,7 +7,7 @@ const Promotion: React.FC = () => {
     return (
         <div className="flex-row-reverse my-[50px]
             md:my-[150px]
-            lg:ml-[120px] lg:mr-[160px] xl:mr-48 lg:flex lg:justify-between"
+            lg:pl-[120px] lg:pr-[120px] xl:mr-48 lg:flex lg:justify-between 2xl:mx-auto"
         >
             
             <div className="flex lg:items-start xl:items-end xl:ml-[120px]">

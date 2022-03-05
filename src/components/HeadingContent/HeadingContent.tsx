@@ -18,7 +18,8 @@ const HeadingContent: React.FC = () => {
             md:py-[10px]
             md:px-[50px] 
             lg:px-[88px] 
-            xl:px-[120px]">
+            xl:px-[120px]
+            2xl:mx-auto">
             <div className="flex items-center">
                 <div className="text-center md:text-left">
                     <h4 className="text-[19px] lg:text-[28px] font-cedarville text-darkGray">Drink coffee, enjoy with Samwyle</h4>

@@ -7,7 +7,7 @@ const Slider: React.FC = () => {
 
     return (
         <div className="my-[50px] px-5 sm:px-[160px] xl:px-5 lg:bg-lightGray">
-            <div className="xl:flex justify-center items-center flex-row-reverse py-12">
+            <div className="xl:flex justify-center items-center flex-row-reverse py-12 2xl:mx-auto">
                 <img className="hidden xl:block ml-[60px] cursor-pointer" src={Arrow2} alt="arrow-left" />
                 <div className="rounded-3xl shadow-shadowSliderOp1 md:shadow-shadowSliderOp2">
                     <div className="p-11 text-center mx-auto">

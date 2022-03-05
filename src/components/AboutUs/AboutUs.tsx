@@ -7,7 +7,7 @@ const AboutUs: React.FC = () => {
     return (
         <div className="
             mt-[70px] mb-24
-            lg:ml-[120px] lg:mr-48 lg:flex lg:justify-between md:my-[190px]"
+            lg:pl-[120px] lg:pr-48 lg:flex lg:justify-between md:my-[190px] 2xl:mx-auto"
         >
             <div className="relative min-w-[380px] bg-primaryPink
                 h-[248px]
