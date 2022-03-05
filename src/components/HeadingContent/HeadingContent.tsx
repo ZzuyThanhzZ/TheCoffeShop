@@ -12,13 +12,14 @@ const HeadingContent: React.FC = () => {
     return (
         <div className="
             flex
-            justify-center 
-            md:justify-center
+            justify-center
+            md:justify-between
             py-[130px]
             md:py-[10px]
             md:px-[50px] 
             lg:px-[88px] 
             xl:px-[120px]
+            2xl:justify-center
             2xl:px-0 2xl:mx-auto">
             <div className="flex items-center 2xl:mr-[245px]">
                 <div className="text-center md:text-left">

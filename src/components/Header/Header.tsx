@@ -18,12 +18,12 @@ const Header: React.FC = () => {
     return (
         <div>
            <div className="
-                flex sm:justify-center items-center
+                flex sm:justify-between items-center
                 sm:py-10 sm:px-[20px] 
                 md:px-[50px] 
                 lg:px-[88px] 
                 xl:px-bothsides
-                2xl:px-0
+                2xl:px-0 2xl:justify-center
                 2xl:mx-auto"
             >
                 <div className="my-[30px] ml-[18px] mr-10 sm:hidden">
