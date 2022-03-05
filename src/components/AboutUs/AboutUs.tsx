@@ -7,7 +7,7 @@ const AboutUs: React.FC = () => {
     return (
         <div className="
             mt-[70px] mb-24
-            lg:ml-[120px] lg:mr-48 lg:flex lg:justify-between md:my-[190px] 2xl:justify-center 2xl:mx-auto"
+            lg:ml-[88px] lg:mr-[88px] lg:flex lg:justify-between md:my-[190px] 2xl:justify-center 2xl:mx-auto"
         >
             <div className="relative min-w-[380px] bg-primaryPink
                 h-[248px]
@@ -26,7 +26,7 @@ const AboutUs: React.FC = () => {
                 </div>
             </div>
 
-            <div className="mx-8 mt-[30px] lg:mt-0 lg:ml-0 lg:max-w-[645px]">
+            <div className="mx-8 lg:mr-0 mt-[30px] lg:mt-0 lg:ml-0 lg:max-w-[645px]">
                 <h2>Coffee Shop Samwayle</h2>
                 <p className="font-alegreya my-[30px] lg:mt-[25px] lg:mb-[15px]">
                     Only one moment - when the barista reaches out over the bar to transfer the cup to the outstretched hand 
